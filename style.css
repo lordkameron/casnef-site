@@ -17,23 +17,44 @@ div.header {
     max-width: 100%;
     height: auto;
     background-color: #0f0a3f;
-    border: solid;
     display: block;
+    text-align: center;
+}
+div.body {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Showoff Shelf */
+
+ul.shelf {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li.shelfet {
+    float: left;
+    display: inline-block;
 }
 
 /* Navbar */
 div.navbar {
     height: auto;
+    margin: auto;
+    width: 50%;
 }
 ul.navbarList {
     list-style-type: none;
-    margin: 0;
+    margin: auto;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    display: block;
 }
 li.nav {
     float: left;
+    display: block;
+    margin: auto;
 }
 li.nav a {
     display: block;
