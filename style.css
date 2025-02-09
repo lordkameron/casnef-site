@@ -1,0 +1,44 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+body {
+    background-color: white;
+    color: black;
+    font-family: Verdana;
+}
+/* The Div's */
+div.main {
+    max-width: 54rem;
+    width: 90%;
+    background-color: #c3baba;
+}
+div.header {
+    max-width: 100%;
+    height: auto;
+    background-color: #0f0a3f;
+    border: solid;
+    display: block;
+}
+
+/* Navbar */
+div.navbar {
+    height: auto;
+}
+ul.navbarList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li.nav {
+    float: left;
+}
+li.nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
